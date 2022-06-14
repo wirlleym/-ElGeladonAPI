@@ -1,4 +1,4 @@
-import Carrinho from '../models/carrinho.model'; //Importo a model
+import Carrinho from '../models/carrinho.model.js'; //Importo a model
 
 const carrinhoComprasService = async () => {
   const carrinho = await Carrinho.find();
