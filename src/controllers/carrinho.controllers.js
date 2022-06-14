@@ -1,4 +1,4 @@
-import CarrinhoServices from '../services/carrinho.services';  //importando o serviço
+import CarrinhoServices from '../services/carrinho.services.js';  //importando o serviço
 
 class CarrinhoController{
     async carrinhoComprasController(request, response) {

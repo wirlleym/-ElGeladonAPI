@@ -1,7 +1,7 @@
-import paletasRouter from './routes/paletas.routes';
+import paletasRouter from './routes/paletas.routes.js';
 // Importou as novas rotas
-import usuariosRouter from './routes/usuarios.routers';
-// import loginRouter from './routes/login.routes';
+import usuariosRouter from './routes/usuarios.routers.js';
+// import loginRouter from './routes/login.routes.js';
 import express from 'express';
 import cors from 'cors';
 

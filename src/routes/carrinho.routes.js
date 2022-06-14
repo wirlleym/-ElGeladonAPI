@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import CarrinhoControllers from '../controllers/carrinho.controllers';
-import verificarItemCarrinhoMiddleware from '../middlewares/verificarItemCarrinho.middleware';
+import CarrinhoControllers from '../controllers/carrinho.controllers.js';
+import verificarItemCarrinhoMiddleware from '../middlewares/verificarItemCarrinho.middleware.js';
 
 const carrinhoRouter = Router();
 const carrinhoControllers = new CarrinhoControllers();
