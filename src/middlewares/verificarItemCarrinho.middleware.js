@@ -1,4 +1,4 @@
-import Carrinho from '../models/carrinho.model';
+import Carrinho from '../models/carrinho.model.js';
 import mongoose from 'mongoose';
 
 const verificarItemCarrinhoMiddleware = (request, response, next) => {
