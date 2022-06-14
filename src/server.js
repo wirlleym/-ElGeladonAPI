@@ -1,7 +1,8 @@
+import 'dotenv/config';
 import app from './app';
 import { conectarAoDatabase } from './database';
 
-const port = 3000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
   conectarAoDatabase();
